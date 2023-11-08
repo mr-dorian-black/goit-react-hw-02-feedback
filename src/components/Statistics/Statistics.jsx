@@ -10,7 +10,6 @@ export const Statistics = ({ good, neutral, bad, total, positivePercentage }) =>
           { label: "Total", value: total, type: "number" },
           { label: "Positive feedback", value: positivePercentage, type: "percent" },
      ]
-     
      return <ul className={css['list']}>
                {list.map(({label, value, type}) => {
                     return <li key={nanoid()} className={css['item']}>
