@@ -1,5 +1,3 @@
 export const Notification = ({ message }) => {
-    return(
-        <span>{message}</span>
-    )
-}
+  return <span>{message}</span>;
+};
